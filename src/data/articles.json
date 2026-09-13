@@ -4,37 +4,48 @@
         "title": "Merkür Retrosuna Kısa Bir Bakış",
         "slug": "merkur-retrosuna-kisa-bir-bakis",
         "category": "astroloji",
-        "excerpt": "Astroloji makale yapısını test etmek için hazırlanmış kısa demo içerik.",
-        "coverImage": "https://images.unsplash.com/photo-1532968961962-8a0cb3a2d4f5?auto=format&fit=crop&w=1200&q=80",
+        "excerpt": "Yılın belirli dönemlerinde sosyal medyada aynı cümle dolaşır: Merkür yine geri gidiyor. Peki bu kadar konuşulan Merkür retrosu nedir ve gerçekten hayatımızı bu denli etkiler mi? Astrolojinin en çok merak edilen konularından biri olan bu döngüye yakından bakalım.",
+        "coverImage": "/images/astroloji/merkur-retrosu.webp",
         "publishedAt": "2026-09-05T14:30:00+03:00",
         "seoTitle": "Merkür Retrosuna Kısa Bir Bakış | Merak Atlası",
-        "seoDescription": "Merkür retrosu hakkında kısa demo astroloji içeriği.",
+        "seoDescription": "Merkür retrosu hakkında detaylı bilgi.",
         "tags": ["merkür", "retro", "gezegenler"],
         "content": [
-            { "type": "paragraph", "text": "Bu metin, astroloji makale şablonunu göstermek için hazırlanmış kısa bir demo paragraftır." },
-            { "type": "heading2", "text": "Retro dönemini takip etmek" },
-            { "type": "paragraph", "text": "Gerçek editoryal içerik eklendiğinde bu bölüm ayrıntılı bilgilerle güncellenecek." },
+            { "type": "paragraph", "text": "Merkür retrosu, Merkür gezegeninin Dünya'dan bakıldığında gökyüzünde geriye doğru hareket ediyormuş gibi görünmesi olayıdır. Aslında Merkür hiçbir zaman gerçekten geri gitmez; bu, iki gezegenin yörünge hızlarındaki farktan kaynaklanan optik bir yanılsamadır. Astrolojide Merkür iletişim, zihin, seyahat, ticaret ve sözleşmelerle ilişkilendirilir; bu yüzden retrosu sırasında bu alanlarda aksaklıklar yaşanabileceği düşünülür. Merkür retrosu ne anlama gelir sorusunun kısa cevabı, geçmişe dönüş, yeniden değerlendirme ve yavaşlama çağrısıdır. Yılda yaklaşık üç kez, her biri iki üç hafta süren dönemler halinde yaşanır." },
+            { "type": "heading2", "text": "Merkür Retrosu Hayatımızı Nasıl Etkiler?" },
+            { "type": "paragraph", "text": "Bu dönemde insanlar sıklıkla eski konuların yeniden gündeme geldiğini, ertelenen kararların su yüzüne çıktığını ya da iletişimde yanlış anlamaların arttığını fark eder. Teknoloji arızaları, kaybolan mesajlar, iptal edilen uçuşlar ve eski sevgililerin aniden ortaya çıkması gibi durumlar Merkür retrosuna yüklenen klasik senaryolardır. Elbette bu dönem yalnızca olumsuz değildir; geçmişte yarım kalan projelere dönmek, eski defterleri kapatmak ve iç sesinizi dinlemek için de son derece verimli bir zamandır. İlişkilerde dürüst konuşmalar, iş hayatında ise sözleşmeleri bir kez daha gözden geçirmek bu süreçte sıkça önerilir." },
             { "type": "ad" },
-            { "type": "heading3", "text": "Kısa not" },
-            { "type": "paragraph", "text": "Tarihleri ve kişisel harita etkilerini ayrı ayrı değerlendirmek gerekir." }
+            { "type": "heading2", "text": "Merkür Retrosu Hakkında Bilinmesi Gereken Detaylar" },
+            { "type": "paragraph", "text": "Merkür retrosu her burcu aynı şekilde etkilemez; hangi burçta ve hangi evde gerçekleştiği, etkinin tonunu belirler. Örneğin Merkür Koç burcunda gerilerken aceleci kararlar ve tartışmalar öne çıkarken, Başak burcundaki bir retro detaylara ve sağlığa odaklanmayı getirir. İletişim, zihin, ticaret ve seyahat konuları en çok etkilenen alanlar arasında yer alır. Aşağıdaki kısa liste, bu dönemde sıkça gündeme gelen temaları hatırlatmak için faydalı olabilir; Eski ilişkilerin ve tamamlanmamış konuşmaların yeniden gündeme gelmesi, Teknik arızalar, kaybolan dosyalar ve geciken planlar, Sözleşmeler ve resmi belgeler üzerinde yeniden düşünme ihtiyacı, Seyahatlerde rötarlar ve plan değişiklikleri. Bu temaların hiçbiri kesin bir kader değildir; sadece o dönemin enerjisine dair bir farkındalık çağrısıdır." },
+            { "type": "heading2", "text": "Merkür Retrosu Yorumlanırken Nelere Dikkat Edilmeli?" },
+            { "type": "paragraph", "text": "Merkür retrosunu yorumlarken onu bir felaket haberi gibi değil, bir içe dönüş daveti olarak okumak gerekir. Bu dönemde önemli kararlar almak yerine mevcut planları gözden geçirmek, yeni başlangıçlar için birkaç hafta beklemek ve iletişimde daha net olmaya özen göstermek yeterlidir. Kendi haritanızda Merkür retrosunun hangi evde gerçekleştiğine bakmak, hangi yaşam alanınızın yeniden düzenlenmeye ihtiyaç duyduğunu gösterecektir. Sabır ve farkındalık, bu süreci en verimli şekilde geçirmenin anahtarıdır." }
+           
         ]
     },
     {
         "id": 1002,
-        "title": "Doğum Haritasında Yükselen Burç",
+        "title": "Doğum Haritasında Yükselen Burç: Bilinmesi Gereken Her Şey",
         "slug": "dogum-haritasinda-yukselen-burc",
         "category": "astroloji",
-        "excerpt": "Yükselen burç konulu detay sayfasını sınamak için kısa demo makale.",
-        "coverImage": "https://images.unsplash.com/photo-1519608487953-e999c86e7455?auto=format&fit=crop&w=1200&q=80",
+        "excerpt": "İnsanların çoğu doğum haritasını duyduğunda yalnızca güneş burcunu düşünür, oysa gökyüzü çok daha katmanlı bir hikâye anlatır. Doğum haritasında yükselen burç, tam da bu katmanların en dışta duranı, yani dünyaya açılan kapınızdır. Peki doğum haritasında yükselen burç nedir ve neden tanıştığınız ilk izlenimi bu kadar güçlü biçimde belirler? Gelin bu sorunun peşine birlikte düşelim.",
+        "coverImage": "/images/astroloji/dogum-haritasi-yukselen-burc.webp",
         "publishedAt": "2026-09-03T10:15:00+03:00",
         "seoTitle": "Doğum Haritasında Yükselen Burç | Merak Atlası",
         "seoDescription": "Yükselen burç hakkında kısa demo içerik.",
         "tags": ["doğum haritası", "burçlar", "yükselen"],
         "content": [
-            { "type": "paragraph", "text": "Bu kısa demo, yükselen burç makalelerinin sayfada nasıl görüneceğini gösterir." },
-            { "type": "heading2", "text": "Yükselen burç nedir?" },
-            { "type": "paragraph", "text": "Ayrıntılı açıklama, editoryal içerik hazır olduğunda bu alana eklenecek." },
-            { "type": "image", "src": "/images/article-placeholder.svg", "alt": "Astroloji demo görseli" }
+            { "type": "paragraph", "text": "Yükselen burç, doğduğunuz anda doğu ufkunda yükselmekte olan burç derecesidir ve doğum haritasının birinci evinin başlangıcını oluşturur. Astrolojide güneş burcu özünüzü, ay burcu duygusal dünyanızı temsil ederken, yükselen burç dış dünyaya sunduğunuz yüzü ve ilk izlenimi simgeler. Bu yüzden doğum saatinin dakikası bile yükselen burcu değiştirebilir; iki saat arayla doğan iki kişi farklı yükselenlere sahip olabilir. Doğum haritasında yükselen burç ne anlama gelir sorusunun en kısa cevabı şudur: ruhunuzun giydiği kıyafet. İç dünyanız ne olursa olsun, kapıyı çaldığınızda karşınızdakinin ilk gördüğü şey bu kıyafettir." },
+            { "type": "heading2", "text": "Doğum Haritasında Yükselen Burç Hayatımızı Nasıl Etkiler?" },
+            { "type": "paragraph", "text": "Yükselen burç, günlük hayatta farkında olmadan takındığınız tavırları, beden dilinizi, ses tonunuzu ve hatta giyim tarzınızı etkiler. Örneğin yükselen Koç olan biri ortama hızlı ve atılgan bir enerjiyle girerken, yükselen Terazi olan biri uyum ve zarafetle yaklaşır. İlişkilerde ilk tanışma anını, iş görüşmelerinde bıraktığınız izlenimi, hatta insanların size neden belirli bir rol biçtiğini bu burç üzerinden okumak mümkündür. Zamanla yükselen burcun etkisi derinleşir ve kişiliğinizin ayrılmaz bir parçası haline gelir; kimileri ona maskeden çok, ikinci bir ten der." },
+            { "type": "heading2", "text": "Doğum Haritasında Yükselen Burç Hakkında Bilinmesi Gereken Detaylar" },
+            { "type": "paragraph", "text": "Yükselen burcun yöneticisi, haritanızda hangi gezegenin sizin hayat yöneticiniz olduğunu belirler ve bu yönetici gezegenin bulunduğu ev, yaşam yolunuz hakkında önemli ipuçları verir. Yükselen burç aynı zamanda birinci evin kapısını araladığı için, o evde bulunan gezegenler dış görünüşünüze ve davranış biçiminize doğrudan yansır. Aşağıdaki kısa liste, farklı yükselenlerin genel eğilimlerini hatırlatmak için faydalı olabilir:" },
+            { "type": "paragraph", "text": "Yükselen ateş burçları (Koç, Aslan, Yay) genellikle canlı ve girişken bir izlenim bırakır." },
+            { "type": "paragraph", "text": "Yükselen toprak burçları (Boğa, Başak, Oğlak) daha sakin, güvenilir ve ölçülü görünür." },
+            { "type": "paragraph", "text": "Yükselen hava burçları (İkizler, Terazi, Kova) konuşkan, meraklı ve sosyal bir hava taşır." },
+            { "type": "paragraph", "text": "Yükselen su burçları (Yengeç, Akrep, Balık) derin, sezgisel ve mesafeli bir ilk izlenim verir." },
+            { "type": "paragraph", "text": "Elbette bu genellemeler yalnızca başlangıç noktasıdır; haritanın bütünü, bu izlenimin nasıl şekillendiğini belirler." },
+            { "type": "heading2", "text": "Doğum Haritasında Yükselen Burç Yorumlanırken Nelere Dikkat Edilmeli?" },
+            { "type": "paragraph", "text": "Yükselen burcunuzu yorumlarken tek başına burç ismine takılıp kalmamak gerekir. Doğum saatinizin doğruluğu, yönetici gezegenin konumu ve birinci evdeki diğer gezegenler bu yorumu derinleştirir. Kendi hayatınıza uyarlarken şu soruları sorabilirsiniz: İnsanlar beni ilk tanıdığında hangi kelimelerle tanımlıyor? Kalabalık ortamlarda nasıl bir enerji yayıyorum? Yeni bir ortama girdiğimde bedenim nasıl tepki veriyor? Bu soruların cevapları, yükselen burcunuzun günlük hayatınızdaki izlerini görmenizi kolaylaştırır." }
         ]
     },
     {
