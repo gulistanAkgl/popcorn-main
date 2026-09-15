@@ -4,7 +4,8 @@ export const categoryLabels = {
     "kultur-sanat": "Kültür & Sanat",
     "ruya-tabirleri": "Rüya Tabirleri",
     "kisisel-gelisim": "Kişisel Gelişim",
-    "evcil-hayvanlar": "Evcil Hayvanlar"
+    "evcil-hayvanlar": "Evcil Hayvanlar",
+    "tr-pop": "TR Pop"
 };
 
 export function getArticleUrl(article) {
