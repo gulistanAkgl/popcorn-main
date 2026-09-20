@@ -372,7 +372,7 @@
         "category": "evcil-hayvanlar",
         "excerpt": "Köpeğiniz kapıyı her çaldığınızda yerinden fırlıyor, tasmasını görünce kuyruğunu sallamaya başlıyorsa yalnız değilsiniz. Peki bu günlük yürüyüşler sadece tuvalet ihtiyacı için mi, yoksa köpeğinizin ruhsal ve bedensel sağlığı için çok daha fazlası mı? Köpeklerle günlük yürüyüş rutini oluşturmak, sandığınızdan çok daha fazlasını kapsıyor.",
         "coverImage": "/images/evcil-hayvan/kopek-yuruyus.webp",
-        "publishedAt": "2026-09-05T15:20:00+03:00",
+        "publishedAt": "2026-09-05T12:20:00+03:00",
         "seoTitle": "Köpeklerle Günlük Yürüyüş Rutini Oluşturmak | Merak Atlası",
         "seoDescription": "Köpeklerle güvenli ve sürdürülebilir bir yürüyüş rutini oluşturmaya yönelik temel öneriler.",
         "tags": ["köpekler", "yürüyüş", "evcil hayvan bakımı"],
@@ -383,6 +383,38 @@
             { "type": "ad" },
             { "type": "heading3", "text": "Temponun rehberi köpeğiniz olsun" },
             { "type": "paragraph", "text": "Koklama ve çevreyi inceleme de yürüyüş deneyiminin bir parçasıdır. Belirgin yorgunluk, rahatsızlık veya davranış değişikliği fark ederseniz rutini zorlamak yerine uygun bir veteriner hekimden görüş almanız daha doğru olur." }
+        ]
+    },
+    {
+        "id": 6003,
+        "title": "Kediler Neden Geceleri Koşturur? İşte Nedeni ve Bilinmesi Gerekenler",
+        "slug": "kediler-neden-geceleri-kosar-iste-nedeni-ve-bilinmesi-gerekenler",
+        "category": "evcil-hayvanlar",
+        "excerpt": "Gecenin bir yarısı evin içinde pati sesleriyle uyanmak, kedi sahiplerinin çok iyi bildiği bir durumdur. Peki, gündüz sakin sakin uyuyan minik dostumuz, gece olunca neden bir anda enerji dolu bir kasırgaya dönüşüveriyor? Bu yazıda, kedilerin neden geceleri koşturduğunu, bunun ardındaki içgüdüsel ve davranışsal nedenleri anlamaya çalışacağız.",
+        "coverImage": "/images/evcil-hayvan/kediler-neden-geceleri-kosar.webp",
+        "publishedAt": "2026-09-20T15:12:50+03:00",
+        "seoTitle": "Kediler Neden Geceleri Koşturur? İşte Nedeni ve Bilinmesi Gerekenler | Merak Atlası",
+        "seoDescription": "Kedilerin geceleri koşturmasının nedenlerini ve bu davranışın etkilerini öğrenin.",
+        "tags": ["kediler", "gece","koşar", "evcil hayvanlar"],
+        "content": [
+            { "type": "paragraph", "text": "Bu davranışın temelinde, kedilerin doğuştan gelen avcılık içgüdüleri ve biyolojik saatleri yatar. Kediler, evrimsel olarak alacakaranlık ve şafak vakti en aktif olan 'crepuscular' canlılardır. Yani günün bu geçiş saatlerinde avlanmak, enerji harcamak ve bölgelerini kontrol etmek onların doğasında vardır. Ev ortamında ise bu içgüdü, gün içinde yeterince uyarılmadıklarında veya enerjilerini atamadıklarında gece saatlerine kayabilir. Gündüz boyunca uzun saatler uyuyan bir kedi, akşam olduğunda doğal olarak 'avlanma' moduna geçer ve bu enerjiyi evin içinde koşarak, zıplayarak ve oyun oynayarak boşaltmaya çalışır. Yani aslında bu, tamamen normal ve beklenen bir davranıştır. " },
+            { "type": "heading2", "text": "Bu Davranışın Farklı Nedenleri Olabilir mi?" },
+            { "type": "paragraph", "text": "Elbette, her kedinin gece koşturmasının altında yatan neden farklılık gösterebilir. İşte en yaygın görülen nedenler:" },
+            { "type": "paragraph", "text": "Avcılık İçgüdüsü ve Enerji Birikimi: Gün içinde yeterince oyun oynamayan, zihinsel ve fiziksel olarak uyarılmayan kediler, biriken enerjiyi gece saatlerinde boşaltmaya çalışır. Bu, özellikle genç kedilerde ve yavrularda çok daha belirgindir." },
+            { "type": "paragraph", "text": "Biyolojik Saat (Sirkadiyen Ritim): Kediler alacakaranlık canlısı oldukları için, akşamüstü ve gece yarısı doğal olarak daha aktiftirler. Bu, onların avlanma ve keşif için en uygun zaman dilimidir." },
+            { "type": "paragraph", "text": "Dikkat Çekme ve İletişim: Kediniz gece koştururken bazen size bakıp miyavlayabilir veya oyuncaklarını size doğru getirebilir. Bu, aslında 'Benimle oyna' veya 'İlgilen benimle' demenin bir yoludur." },
+            { "type": "paragraph", "text": "Stres ve Kaygı: Evdeki bir değişiklik (yeni bir bebek, taşınma, başka bir evcil hayvan) kedinizde strese yol açabilir ve bu stres gece hiperaktivitesi olarak kendini gösterebilir." },
+            { "type": "paragraph", "text": "Sağlık Sorunları: Hipertiroidi (tiroid bezinin aşırı çalışması) gibi bazı sağlık sorunları, kedilerde gece hiperaktivitesine ve huzursuzluğa neden olabilir. Bu tür durumlarda mutlaka veteriner hekiminize danışmalısınız." },  
+            { "type": "ad" },
+            { "type": "heading2", "text": "Ne Zaman Endişelenmeli?" },
+            { "type": "paragraph", "text": "Kedilerin gece koşturması genellikle normal ve sağlıklı bir davranıştır. Ancak bazı durumlarda bu davranış, altta yatan bir sağlık sorununun işareti olabilir. Eğer kediniz normalde sakin bir yapıya sahipken aniden gece hiperaktivitesi göstermeye başladıysa, aşırı kilo kaybı, sürekli miyavlama, saldırganlık, nefes almada zorluk veya yön kaybı gibi belirtiler eşlik ediyorsa, bu durum ciddiye alınmalıdır. Özellikle yaşlı kedilerde gece huzursuzluğu, ağrı, görme kaybı veya demans (bilişsel disfonksiyon) gibi sorunların habercisi olabilir. Bu tür durumlarda vakit kaybetmeden bir veteriner hekime başvurmanız, olası sorunların erken teşhisi için hayati önem taşır." },
+            { "type": "heading2", "text": "Sahip Olarak Ne Yapabilirsiniz?" },
+            { "type": "paragraph", "text": "Kedinizin gece koşturmasını tamamen durduramasanız da, bu davranışı daha yönetilebilir hale getirebilirsiniz. İşte uygulayabileceğiniz bazı pratik öneriler:" },
+            { "type": "paragraph", "text": "Gündüz Oyun Seansları Düzenleyin: Kedinizle özellikle akşamüstü ve yatmadan önce yoğun oyun seansları yapın. Bu, biriken enerjisini boşaltmasına yardımcı olur ve gece daha sakin olmasını sağlar." },
+            { "type": "paragraph", "text": "Beslenme Saatini Ayarlayın: Kedinizin akşam yemeğini yatmadan hemen önce verin. Tok bir kedi, avlanma içgüdüsünü tatmin etmiş olur ve genellikle uykuya daha kolay geçer." },
+            { "type": "paragraph", "text": "Zenginleştirilmiş Bir Ortam Sunun: Tırmanma ağaçları, pencere kenarındaki kuş evleri, interaktif oyuncaklar ve saklanma alanları ile kedinizin gündüz boyunca meşgul olmasını sağlayın." },
+            { "type": "paragraph", "text": "Gece Rutini Oluşturun: Her akşam aynı saatte oyun, yemek ve sevgi dolu bir rutin oluşturmak, kedinizin biyolojik saatini düzenlemesine yardımcı olur." },
+            { "type": "paragraph", "text": "Oyuncağı Onunla Paylaşın: Miyavlayarak veya oyuncak getirerek dikkatinizi çekmeye çalışıyorsa, kısa bir oyun seansı ile bu isteğini karşılayın ve sonra sakinleşmesi için onu rahat bırakın." }
         ]
     },
     {
