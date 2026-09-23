@@ -9,107 +9,111 @@ import data from "../data/data.json";
 import articles from "../data/articles.json";
 import { sortArticlesNewest } from "../utils/articles.js";
 import { createWebSiteStructuredData } from "../utils/seo.js";
-
-const featuredMovies = data.movies.slice(0, 4);
+ 
+const featuredMovies = data.movies.slice(0, 2);
+ 
+// Sıra burada belirleniyor 
 const articleSections = [
+    { category: "tr-pop", title: "⭐ TR Pop" },
+    { category: "evcil-hayvanlar", title: "🐾 Evcil Hayvanlar" },
     { category: "astroloji", title: "✨ Astroloji" },
     { category: "yemek-tarifleri", title: "🍴 Yemek Tarifleri" },
     { category: "kultur-sanat", title: "🎨 Kültür & Sanat" },
     { category: "ruya-tabirleri", title: "🌙 Rüya Tabirleri" },
-    { category: "kisisel-gelisim", title: "🧠 Kişisel Gelişim" },
-    { category: "evcil-hayvanlar", title: "🐾 Evcil Hayvanlar" }
+    { category: "kisisel-gelisim", title: "🧠 Kişisel Gelişim" }
 ].map((section) => ({
     ...section,
     articles: sortArticlesNewest(
         articles.filter((article) => article.category === section.category)
-    ).slice(0, 3)
+    ).slice(0, 2)
 }));
 ---
-
-
+ 
+ 
 <BaseLayout
     title="Merak Atlası | Film, Astroloji, Kültür ve Yaşam"
     description="Film, dizi, astroloji, yemek tarifleri, kültür sanat, rüya tabirleri, kişisel gelişim ve evcil hayvan içerikleri."
     canonicalPath="/"
 >
-
+ 
     <StructuredData data={createWebSiteStructuredData()} />
-
+ 
     <div class="home-container">
-
+ 
         <section class="home-hero">
-
+ 
             <div class="home-hero-content">
                 <span class="home-hero-label">
                     MERAK ATLASI'NDA ÖNE ÇIKANLAR
                 </span>
-
+ 
                 <h1 id="homeHeroTitle" aria-live="polite">Keşfedecek çok şey var.</h1>
-
+ 
                 <p>
                     Film ve dizilerden burç rehberlerine,
                     yemek tariflerinden kültür ve sanata kadar
                     Merak Atlası'nın öne çıkan içeriklerini keşfet.
                 </p>
             </div>
-
+ 
         </section>
-
-
+ 
+ 
+        <AdSlot placement="homepage" />
+ 
+ 
+        {articleSections.map((section) => (
+            section.articles.length > 0 && (
+                <section class="home-section">
+                    <div class="section-header">
+                        <h2>{section.title}</h2>
+                        <a href={`/${section.category}/`}>Tümünü Gör →</a>
+                    </div>
+ 
+                    <div class="article-list home-article-list">
+                        {section.articles.map((article) => <ArticleCard article={article} />)}
+                    </div>
+                </section>
+            )
+        ))}
+ 
         <section class="home-section">
             <HoroscopeFeatureCard />
         </section>
-
-
-        <AdSlot placement="homepage" />
-
-
-        {articleSections.map((section) => (
-            <section class="home-section">
-                <div class="section-header">
-                    <h2>{section.title}</h2>
-                    <a href={`/${section.category}/`}>Tümünü Gör →</a>
-                </div>
-
-                <div class="article-list home-article-list">
-                    {section.articles.map((article) => <ArticleCard article={article} />)}
-                </div>
-            </section>
-        ))}
-
+ 
         <section class="home-section">
             <div class="section-header">
                 <h2>🎬 Filmler & Diziler</h2>
                 <a href="/film-dizi/">Tümünü Gör →</a>
             </div>
-
+ 
             <div class="placeholder-grid">
                 {featuredMovies.map((movie) => (
                     <MovieCard item={movie} />
                 ))}
             </div>
         </section>
-
+ 
     </div>
-
+ 
     <script>
         import { supabase } from "../lib/supabase.js";
-
+ 
         const heroTitle = document.getElementById("homeHeroTitle");
         const defaultTitle = "Keşfedecek çok şey var.";
-
+ 
         const renderWelcome = async (session) => {
             if (!session?.user) {
                 if (heroTitle) heroTitle.textContent = defaultTitle;
                 return;
             }
-
+ 
             const { data: profile } = await supabase
                 .from("profiles")
                 .select("*")
                 .eq("id", session.user.id)
                 .maybeSingle();
-
+ 
             const name = profile?.display_name?.trim()
                 || profile?.username?.trim()
                 || session.user.user_metadata?.display_name?.trim()
@@ -120,13 +124,13 @@ const articleSections = [
                     : defaultTitle;
             }
         };
-
+ 
         const { data: { session } } = await supabase.auth.getSession();
         await renderWelcome(session);
-
+ 
         supabase.auth.onAuthStateChange((_event, nextSession) => {
             void renderWelcome(nextSession);
         });
     </script>
-
+ 
 </BaseLayout>
